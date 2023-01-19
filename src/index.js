@@ -7,7 +7,7 @@ import Single from "./Single";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/react-hooks-and-routes">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/post/:id" element={<Single />} />
